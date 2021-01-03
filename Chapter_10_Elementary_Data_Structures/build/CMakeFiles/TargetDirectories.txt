@@ -1,0 +1,3 @@
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/build/CMakeFiles/rebuild_cache.dir
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/build/CMakeFiles/edit_cache.dir
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/build/CMakeFiles/SLandDL.dir

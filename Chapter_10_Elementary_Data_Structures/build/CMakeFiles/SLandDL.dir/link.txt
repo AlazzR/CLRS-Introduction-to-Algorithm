@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/SLandDL.dir/src/ImplementationFromScratch/main.cpp.o CMakeFiles/SLandDL.dir/src/ImplementationFromScratch/SLL.cpp.o CMakeFiles/SLandDL.dir/src/ImplementationFromScratch/DLL.cpp.o  -o SLandDL 

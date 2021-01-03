@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/AVLTree-project.dir/src/AVLtree_project.cpp.o CMakeFiles/AVLTree-project.dir/src/main.cpp.o  -o AVLTree-project 

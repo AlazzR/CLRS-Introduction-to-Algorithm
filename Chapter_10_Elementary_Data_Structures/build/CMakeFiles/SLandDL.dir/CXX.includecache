@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/src/ImplementationFromScratch/DLL.hpp
+iostream
+-
+queue
+-
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/src/ImplementationFromScratch/SLL.hpp
+iostream
+-
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/src/ImplementationFromScratch/main.cpp
+main.hpp
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/src/ImplementationFromScratch/main.hpp
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/src/ImplementationFromScratch/main.hpp
+iostream
+-
+SLL.hpp
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/src/ImplementationFromScratch/SLL.hpp
+DLL.hpp
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_3/src/ImplementationFromScratch/DLL.hpp
+

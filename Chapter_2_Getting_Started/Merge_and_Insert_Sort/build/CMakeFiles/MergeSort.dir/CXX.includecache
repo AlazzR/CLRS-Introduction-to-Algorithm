@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_9_Soring/src/main_merge.cpp
+iostream
+-
+deque
+-
+memory
+-
+

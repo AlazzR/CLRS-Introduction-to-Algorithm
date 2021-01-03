@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/Augmented_Binary_Search_Tree_not_AVL/src/BST_Node_and_Tree.h
+iostream
+-
+vector
+-
+functional
+-
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/Augmented_Binary_Search_Tree_not_AVL/src/main.cpp
+main.h
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/Augmented_Binary_Search_Tree_not_AVL/src/main.h
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/Augmented_Binary_Search_Tree_not_AVL/src/main.h
+BST_Node_and_Tree.h
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/Augmented_Binary_Search_Tree_not_AVL/src/BST_Node_and_Tree.h
+string
+-
+

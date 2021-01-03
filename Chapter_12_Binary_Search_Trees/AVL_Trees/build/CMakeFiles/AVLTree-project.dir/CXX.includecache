@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/AVL_Trees/src/AVLtree_project.cpp
+AVLtree_project.hpp
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/AVL_Trees/src/AVLtree_project.hpp
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/AVL_Trees/src/AVLtree_project.hpp
+iostream
+-
+vector
+-
+limits
+-
+functional
+-
+

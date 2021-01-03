@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/Heap_DS/main.cpp
+main.hpp
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/Heap_DS/main.hpp
+
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_6_Binary_Trees/Heap_DS/main.hpp
+iostream
+-
+string
+-
+cmath
+-
+

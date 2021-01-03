@@ -1,0 +1,4 @@
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_9_Soring/build/CMakeFiles/rebuild_cache.dir
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_9_Soring/build/CMakeFiles/edit_cache.dir
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_9_Soring/build/CMakeFiles/MergeSort.dir
+/home/alazzonir/Desktop/Data-Structures-and-Algorithms/Chapter_9_Soring/build/CMakeFiles/InsertionSort.dir
