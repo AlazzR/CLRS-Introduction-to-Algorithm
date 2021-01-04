@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alazzonir/Desktop/CLRS-Introduction-to-Algorithm/Chapter_11_Hash_Table/Pattern_Matching_Using_Rabin_Karp_Algorithm/src/main.cpp
+main.hpp
+/home/alazzonir/Desktop/CLRS-Introduction-to-Algorithm/Chapter_11_Hash_Table/Pattern_Matching_Using_Rabin_Karp_Algorithm/src/main.hpp
+chrono
+-
+
+/home/alazzonir/Desktop/CLRS-Introduction-to-Algorithm/Chapter_11_Hash_Table/Pattern_Matching_Using_Rabin_Karp_Algorithm/src/main.hpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+boost/algorithm/string.hpp
+-
+cstdlib
+-
+
