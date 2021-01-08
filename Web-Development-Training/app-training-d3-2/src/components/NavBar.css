@@ -1,0 +1,22 @@
+.headerContainer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% auto auto auto auto;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    height: 8vh;
+}
+.header-column{
+    position: relative;
+    height: 100%;
+    
+}
+@media (max-width: 1262px)
+{
+    .headerContainer{
+        grid-template-columns: auto auto auto;
+        height: auto;
+    }
+}
