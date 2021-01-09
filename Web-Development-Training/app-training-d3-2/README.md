@@ -17,3 +17,5 @@ You will also see any lint errors in the console.
 ### `npm run start-api`
 
 Need to use this command to run the backend end api which is needed for generating the required data.
+
+### Watch this project in action by pressing the following link [https://youtu.be/E8C_r5hqCxY](https://youtu.be/E8C_r5hqCxY), the link will take you to watch the unlisted video in my channel.
