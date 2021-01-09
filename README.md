@@ -11,7 +11,7 @@ The third project will be dealing with problem solving in which I will try to so
 
 --------------------------------------------------------------------------------------------------------
 ## Introduction to Algorithms (CLRS)
-   * ** Chapter 2:- Getting Started **
+   * **Chapter 2:- Getting Started**
        * Insert Sort
        * Merge Sort
        
