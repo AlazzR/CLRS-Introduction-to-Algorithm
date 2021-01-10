@@ -7,49 +7,50 @@ The first project, as was mentioned before, deals with algorithms from the Intro
 
 The second project is dealing with full stack web development, and to be honest with you during my undergraduate studies I didn't find web development as an interesting subject. But now-a-days with the influx of all kinds of frame works --- from the like of React, Angular, Flask and Django--- it became a crucial thing to get acquainted with variety of tools that we might need at our disposal in our day-to-day work. So, I have decided to embark in this journey to learn web development using Flask, Django and React, and I really wasn't disappointed in this journey and I am quite happy with the information that I got to learn in this journey. This project will focus mainly on designing websites using React, d3, Flask, and the occasional Django.
 
-The third project will be dealing with problem solving in which I will try to solve as many problems as humanly possible to solve. In which I will mainly deal with problems that I find in [leetCode](https://leetcode.com/problemset/all/).
+The third project will be dealing with problem solving in which I will try to solve as many problems as humanly possible to solve. In which I will mainly deal with problems that I find in  [leet Code](https://leetcode.com/problemset/all/).
+
 --------------------------------------------------------------------------------------------------------
 ## Introduction to Algorithms (CLRS)
-
-    * **Chapter 2:- Getting Started**
+   * **Chapter 2:- Getting Started**
        * Insert Sort
        * Merge Sort
-
-    * **Chapter 6:- Heap Sort**
+       
+   * **Chapter 6:- Heap Sort**
        * Heap tree and heap sort
 
-    * **Chapter 8:- Sorting in Linear Time**
+   * **Chapter 8:- Sorting in Linear Time**
        * Counting Sort
        * Radix Sort
 
-    * **Chapter 10:- Elementary Data Structures**
+   * **Chapter 10:- Elementary Data Structures**
        * Single Linked List
        * Double Linked List
     
-    * **Chapter 11:- Hash Tables**
+   * **Chapter 11:- Hash Tables**
        * Karp-Rabin Algorithm
     
-    * **Chapter 12:- Binary Search Trees**
+   * **Chapter 12:- Binary Search Trees**
        * Unbalanced Binary Search Trees
        * AVL Binary Search tree
 
 ## Web Development using React
 
-    * **app-training-d3-2**
+   * **app-training-d3-2**
        * Used d3 to add interactivity in the project
        * Used Softmax regression to predict the Iris flower type
+       
 ## Algorithm Training
 
-    * **Problems with Difficulty rating of Easy**
+   * **Problems with Difficulty rating of Easy**
        * Two Sum
        * Reverse Number
        * Merge Two Sorted Lists
        * Remove Element
 
-    * **Problems with Difficulty rating of Medium**
+   * **Problems with Difficulty rating of Medium**
        * Add Two number
 
-    * **Problems with Difficulty rating of Hard**
+   * **Problems with Difficulty rating of Hard**
 --------------------------------------------------------------------------------------------------------
 **Books used for this Repository**
   * ***Introduction to Algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein, 3rd Edition.***
