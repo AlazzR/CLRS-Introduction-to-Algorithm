@@ -48,7 +48,11 @@ The third project will be dealing with problem solving in which I will try to so
        * Remove Element
 
    * **Problems with Difficulty rating of Medium**
-       * Add Two number
+       * Add Two numbers
+       * 3 Sum Closest
+       * 3 Sum
+       * Container with Most Water
+       * Rotate List
 
    * **Problems with Difficulty rating of Hard**
 --------------------------------------------------------------------------------------------------------
