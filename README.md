@@ -64,7 +64,8 @@ The third project will be dealing with problem solving in which I will try to so
     * scipy==1.4.1
     * pandas==1.0.1
     * numpy==1.18.1
-    * Flask==
+    * Flask==1.1.2
+    * Django==3.1.2
 
   * ***Javascript***:
     * ECMAScript 6
