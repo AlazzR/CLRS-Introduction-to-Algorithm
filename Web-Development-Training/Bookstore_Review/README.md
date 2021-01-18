@@ -11,7 +11,7 @@ This project will fetch books details from google ApI based on user searches and
 ### python manage.py runserver
 
 
-## After running the above commands, go to the your favorite browser and search for http://127.0.0.1:8000/
+## After running the above commands, go to your favorite browser and search for http://127.0.0.1:8000/
 
 
 ### Watch this project in action by pressing the following link [https://youtu.be/E8C_r5hqCxY](https://youtu.be/E8C_r5hqCxY), the link will take you to watch the unlisted video in my channel.
