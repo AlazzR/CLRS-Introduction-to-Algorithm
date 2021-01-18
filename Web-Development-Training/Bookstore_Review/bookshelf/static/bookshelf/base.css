@@ -1,0 +1,37 @@
+.nav-link:hover{
+    background-color: #adb5bd;
+}
+.navbar
+{
+    margin-bottom: 20px;
+}
+body{
+    padding-top: 60px;
+    height: 100%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -20px;
+}
+.footer-button:hover{
+    background-color: #adb5bd;
+}
+.sign-in.disable{
+    display: none;
+}
+.sign-in{
+    display: block;
+    margin-left: -200px;
+    position: absolute;
+    border: 2px solid black;
+    background-color: burlywood;
+}
+@media only screen and (max-width: 988px){
+    body{
+        padding-top: 140px;
+    }
+}
+

@@ -1,0 +1,115 @@
+{% extends 'bookshelf/base.html' %}
+{% block head %}
+
+{% load static %}
+<!-- <link rel="stylesheet" type="text/css" href="{% static 'bookshelf/getbook.css' %}"/> -->
+<script type="text/javascript" src="{% static 'bookshelf/getbook.js' %}"></script>
+<script type="text/javascript">
+    var url_rating = "{% url 'updaterating' %}";
+    var item_id = "{{ data.id }}";
+    var item_rating="{{ data.rating }}";
+    var isUser="{{ isUser }}";
+</script>
+{% endblock %}
+
+{% block navDropdown %}
+    {% for b in booksList %}
+    <li>            
+        <form action="{% url 'bookpage' b.bookid %}" method="post">
+        {% csrf_token %}
+        <button class="dropdown-item" type='submit'>{{b.title}}</button>
+        </form>
+    </li>
+    {% empty %}
+    You aren't Logged in.
+    {% endfor %}
+{% endblock%}
+
+{% block body %}
+
+<div style="display: grid; grid-template-columns: 70% 20%;">
+    <div>
+        
+        <h1>{{ data.title }}</h1> <span><button class='look-at-stars'><i class="far fa-star"></i></button></span><span><button class='look-at-stars'><i class="far fa-star"></i></button></span><span><button class='look-at-stars'><i class="far fa-star"></i></button></span><span><button class='look-at-stars'><i class="far fa-star"></i></button></span><span><button class='look-at-stars'><i class="far fa-star"></i></button></span>
+        <h5>id: {{ data.id }}</h5>
+        <a href={{ data.selfLink }} class='card-url'>{{ data.selfLink }}</a>
+        <br/>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col">
+        <div class="card" style="width: 400px;">
+            <div style="display: block;">
+                <img class="card-img-top" src={{ data.thumbnail }} alt={{ data.title }} height="400px" width="400px"/>
+                <div class="card-body">
+                    <div class="card-text">
+                        <hr/>
+                        Thumbnail
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 400px;">
+            <div style="display: block;">
+                <img class="card-img-top" src={{ data.small }} alt={{ data.title }} height="400px" width="400px"/>
+                <div class="card-body">
+                    <div class="card-text">
+                        <hr/>
+                        Small Image
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 400px;">
+            <div style="display: block;">
+                <img class="card-img-top" src={{ data.medium }} alt={{ data.title }} height="400px" width="400px"/>
+                <div class="card-body">
+                    <div class="card-text">
+                        <hr/>
+                        Medium Image
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    Authors:-
+    <ul class="list-group">
+        {% for auth in data.authors %}
+            <li class="list-group-item">{{ auth }}</li>
+        {% empty %}
+            <li class="list-group-item">No specified authors.</li>
+        {% endfor%}
+    </ul>
+    <br/>
+    Publisher: {{ data.publisher }}
+    <br/>
+    Date: {{ data.date }}
+    <br/>
+    Country of publishing: {{ data.country }}
+    <br/>
+    Categories:-
+    <ul class="list-group">
+        {% for cat in data.categories %}
+            <li class="list-group-item">{{cat}}</li>
+        {% empty %}
+            <li class="list-group-item">No specified categories.</li>
+        {% endfor %}
+    </ul>
+    Language:- {{ data.language }}
+    <br/>
+    Page count: {{ data.pageCount }}
+    <div style="padding-bottom: 100px;">
+        <h3>
+            Description:
+        </h3>
+        {{data.description}}
+    </div>
+</div>
+{% endblock %}
