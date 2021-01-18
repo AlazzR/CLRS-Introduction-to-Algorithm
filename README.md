@@ -33,7 +33,7 @@ The third project will be dealing with problem solving in which I will try to so
        * Unbalanced Binary Search Trees
        * AVL Binary Search tree
 
-## Web Development using React
+## Web Development using React, Flask and Django
 
    * **app-training-d3-2**
        * Used d3 to add interactivity in the project
