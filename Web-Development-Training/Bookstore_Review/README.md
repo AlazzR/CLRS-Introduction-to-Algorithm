@@ -14,4 +14,4 @@ This project will fetch books details from google ApI based on user searches and
 ## After running the above commands, go to your favorite browser and search for http://127.0.0.1:8000/
 
 
-### Watch this project in action by pressing the following link [https://www.youtube.com/watch?v=cVFDM-ffVHU&feature=youtu.be](.../watch?v=cVFDM-ffVHU&feature=youtu.be), the link will take you to watch the unlisted video in my channel.
+### Watch this project in action by pressing the following link [.../watch?v=cVFDM-ffVHU&feature=youtu.be](https://www.youtube.com/watch?v=cVFDM-ffVHU&feature=youtu.be), the link will take you to watch the unlisted video in my channel.
