@@ -57,7 +57,14 @@ The third project will be dealing with problem solving in which I will try to so
        * 3 Sum
        * Container with Most Water
        * Rotate List
-
+       * Array Additions
+       * Letter Count
+       * Plus Minus
+       * Tree Constructors
+       * Minimum Window Substring
+       * Run Length Encoding
+       * Questions Marks
+      
    * **Problems with Difficulty rating of Hard**
 --------------------------------------------------------------------------------------------------------
 **Books used for this Repository**
