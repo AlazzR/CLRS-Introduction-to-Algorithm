@@ -64,6 +64,9 @@ The third project will be dealing with problem solving in which I will try to so
        * Minimum Window Substring
        * Run Length Encoding
        * Questions Marks
+       * Search 2D Matrix
+       * 4 Sum
+       * Divide two Integers
       
    * **Problems with Difficulty rating of Hard**
 --------------------------------------------------------------------------------------------------------
