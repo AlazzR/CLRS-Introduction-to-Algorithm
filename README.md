@@ -56,6 +56,7 @@ The third project will be dealing with problem solving in which I will try to so
        * 3 Sum Closest
        * 3 Sum
        * Container with Most Water
+       * Remove Nth Node from the End
        * Rotate List
        * Array Additions
        * Letter Count
