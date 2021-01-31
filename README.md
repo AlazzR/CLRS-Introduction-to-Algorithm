@@ -5,9 +5,9 @@ This repository will contain three projects that I am currently working on, in o
 
 The first project, as was mentioned before, deals with algorithms from the Introduction to Algorithms book which is commonly referred to as CLRS. I am studying this book by following the outline given in the [MIT 6.006 course](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm).Unfortunately, because  y bachelor's degree was in Electronics engineering, I didn't have the opportunity to learn what computer scientists studies, but as they say better than never ;). Nevertheless, it is very intriguing to study from the CLRS book and it is very interesting to see the major impact of asymptotic complexity analysis on the technology advancement and statistical analysis. I have tried to implement many of the data structures and algorithms that were discussed in this book in C++ by utilizing gdb  as my debugger in my Linux virtual machine.
 
-The second project is dealing with full stack web development, and to be honest with you during my undergraduate studies I didn't find web development as an interesting subject. But now-a-days with the influx of all kinds of frame works --- from the like of React, Angular, Flask and Django--- it became a crucial thing to get acquainted with variety of tools that we might need at our disposal in our day-to-day work. So, I have decided to embark in this journey to learn web development using Flask, Django and React, and I really wasn't disappointed in this journey and I am quite happy with the information that I got to learn in this journey. This project will focus mainly on designing websites using React, d3, Flask, and Django.
+The second project is dealing with full stack web development, and to be honest with you during my undergraduate studies I didn't find web development as an interesting subject. But now-a-days with the influx of all kinds of frame works --- from the like of React, Angular, Flask and Django--- it became a crucial thing to get acquainted with variety of tools that we might need at our disposal in our day-to-day work. So, I have decided to embark in this journey to learn web development using Flask, Django and React, and I really wasn't disappointed in this journey and I am quite happy with the information that I got to learn in this journey. This project will focus mainly on designing websites using React, d3, Node, Express, and Django.
 
-The third project will be dealing with problem solving in which I will try to solve as many problems as humanly possible to solve. In which I will mainly deal with problems that I find in  [leet Code](https://leetcode.com/problemset/all/).
+The third project---and final project---will be dealing with problem solving in which I will try to solve as many problems as humanly possible to solve. In which I will mainly deal with problems that I find in  [leet Code](https://leetcode.com/problemset/all/).
 
 --------------------------------------------------------------------------------------------------------
 ## Introduction to Algorithms (CLRS)
@@ -89,6 +89,8 @@ The third project will be dealing with problem solving in which I will try to so
   * ***Javascript***:
     * ECMAScript 6
     * React==v17.0
+    * Node==v15.7.0
+    * Express==v4.17.1
 
 
  
