@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+}
+form{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-row-gap: 5px;
+    margin: 20%;
+    border: 2px solid white;
+    padding: 5px;
+}

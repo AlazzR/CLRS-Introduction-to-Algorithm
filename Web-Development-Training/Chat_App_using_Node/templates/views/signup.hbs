@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="icon" href="https://www.clipartmax.com/png/small/64-644251_transparent-sunflower-grow-your-own-sunflower.png">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.5.2/validator.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chatting Website</title>
+        <link rel="stylesheet" href="/css/signup.css">
+        <script type="text/javascript" src="/js/signup.js"></script>
+    </head>
+    <body>
+        <div id="sign-up">
+            
+            <form >
+                <div><a href="/" style="color: blue; margin-left: 90%;">Go Back</a></div>
+                <label for="email">Enter a valid Email:-</label>
+                <input type="text" id="email" name="email" placeholder="Email field"  required>
+                <div style="display: none; background-color: red; color: white; width:50%" id="email-rejection">
+                    Please Enter a valid email, the server rejected this email
+                </div>
+
+                <label for="userName">Enter your username(need to be of length 5-32)</label>
+                <input type="text" id="userName" name="username" placeholder="Username field"  required>
+                <div style="display: none; background-color: red; color: white; width:50%" id="userName-rejection">
+                    Please Enter a valid username, the server rejected this username because it doesn't meet its criterion.
+                </div>
+
+                <label for="password">Enter your password(need to be of minimum length equal to 8, with atlease 1 uppercase letter and 1 symbol)</label>
+                <input type="password" name="password" placeholder="Password field" required>
+                <div style="display: none; background-color: red; color: white; width:50%" id="password-rejection">
+                    Please Enter a valid password, the server rejected this password because it doesn't meet its criterion.
+                </div>
+                
+                <button type="submit" style="height:40px; width: 50%; margin-left: 25%;">Submit</button>
+            </form>
+        </div>
+        
+    </body>
+</html>

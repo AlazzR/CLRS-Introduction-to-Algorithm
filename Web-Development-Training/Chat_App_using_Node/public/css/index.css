@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    color: white;
+}
+
+button{
+    border-radius: 30px;
+    margin: 0;
+    margin-left: 25%;
+    width: 50%;
+    background-color: grey;
+    height: 50px;
+}
+button:hover{
+    background-color:aquamarine;
+    color: black;
+}

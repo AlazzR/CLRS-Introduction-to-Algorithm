@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="icon" href="https://www.clipartmax.com/png/small/64-644251_transparent-sunflower-grow-your-own-sunflower.png">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js" integrity="sha512-zT3zHcFYbQwjHdKjCu6OMmETx8fJA9S7E6W7kBeFxultf75OPTYUJigEKX58qgyQMi1m1EgenfjMXlRZG8BXaw==" crossorigin="anonymous"></script>
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/room_chat.css">
+        <script>
+            window.localStorage.setItem("token", '{{token}}');
+            window.localStorage.setItem("userName", "{{username}}");
+        </script>
+        <script id="chat-layout" type="text/x-handlerbars-template">
+            <div style="display: grid; grid-template-columns: 40% 40% ; margin; 0px; color: white;">
+                <img src="\{{src}}" style="border-radius: 50%; height:50px; width: 50px">
+                <div style="margin-top: 25%">\{{name}}</div>
+            </div>
+        </script>
+        <script id="chat-post-template" type="text/x-handlerbars-template">
+            <div id="\{{id}}" style="display: grid; grid-template-rows: 10% 80% 10%">
+                <div id="username">
+                    <span>\{{username}}</span>
+                    <span><button class="delete-post" id="button-\{{id}}"style="background-color: red; border-radius: 20%; margin-left: 90%;">X</button></span>
+
+                    <hr>
+                </div>
+                <div id="content">
+                    \{{content}}
+                    <a href="\{{url}}" style="color: yellow;" target="_blank">\{{url}}</a>
+                </div>
+                <div id="date">
+                    <hr>
+                    \{{date}}
+                </div>
+
+            </div>
+        </script>
+        <script type="text/javascript" src="/js/room_chat.js"></script>
+        <title>Chatting Website</title>
+    </head>
+    <body style="margin-bottom: 0;">
+        {{>navbar}}
+        <div id="chat">
+            <div id="chat-users">
+                <ul id="chat-users-ul" style="list-style-type: none; margin-top: -1px;">
+                </ul>
+            </div>
+            <div id="chat-posts">
+                <div id="div-posts" style="overflow-y: auto; max-height: 100vh;">
+                    <ul id="posts" style="list-style-type: none; margin-top: 10px; margin-left: -10px">
+
+                    </ul>
+                </div>
+                <div style="background-color: black;">
+                    <form style="display: grid; grid-template-columns:90% 10%; ">
+                        <div style="display: grid; grid-template-columns: 80% 20%">
+                            <div>
+                                <textarea name="post" placeholder="Enter your message" style="width: 100%; height: 100%;"></textarea>
+                            </div>
+                            <div style="color: white; padding-left: 40px">
+                                <span>
+                                    <p style="display: inline;" id="letter-count"></p>
+                                </span>
+                                <span>
+                                    /250        
+                                </span>
+                            </div>
+                        </div>
+
+                            <button id="send" type="submit">Send</button>
+                    </form>                    
+                </div>
+                <div id="letter-insufficient" style="display: none; background-color: red; height:30px; margin-top: 20px; padding-bottom: 0px;">
+                    The message should be of length &#8712;[5, 250]
+                </div>
+                <button style="display: inline; margin-left:90%;" id="location">Send Location</button>
+
+            </div>
+
+        </div>
+    </body>
+    {{>footer}}
+    <script type="text/javascript" src="/js/getProfileImage.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+
+</html>

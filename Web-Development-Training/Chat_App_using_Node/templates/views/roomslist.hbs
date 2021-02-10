@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="icon" href="https://www.clipartmax.com/png/small/64-644251_transparent-sunflower-grow-your-own-sunflower.png">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js" integrity="sha512-zT3zHcFYbQwjHdKjCu6OMmETx8fJA9S7E6W7kBeFxultf75OPTYUJigEKX58qgyQMi1m1EgenfjMXlRZG8BXaw==" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            th, td{
+                border: 1px solid white;
+            }
+        </style>
+        <script>
+            localStorage.setItem("token", '{{token}}');//update the token
+            var rooms = '{{rooms}}';
+            var admins = '{{admins}}';
+            var logged = '{{logged}}';
+            var loggedAdminList = '{{loggedAdminList}}';
+            var username = '{{username}}';
+            //window.localStorage.setItem("token", ['{{token}}'][0]);
+        </script>
+        <script id="room-shape" type="text/x-handlerbars-template">
+            <tr style="color: white">
+                <td>\{{roomName}}</td>
+                <td>\{{adminName}}</td>
+                <td style="text-align: center;" >
+                    <button class="exit-buttons" id='\{{exit}}' style="background-color: red;">Exit</button>
+                    <button class="join-buttons" id='\{{join}}'  style="background-color: green;">Join</button>
+                </td>
+            </tr>
+        </script>
+        <script type="text/javascript" src="/js/roomslist.js"></script>
+        <title>Chatting Website</title>
+    </head>
+    <body>
+        {{>navbar}}
+         <div style="margin-left: 25%; background-color: black; color: white; width: 50%;">
+            <h1>Available Rooms:-</h1>
+            <table id="rooms-list" style="border: 1px solid white; width: 100%">
+                <tr>
+                    <th>Room Name</th>
+                    <th>Admin Name</th>
+                    <th>Options</th>
+                </tr>
+            </table>
+            <h1>Already logged in the following Rooms:-</h1>
+            <table id="loggedin-rooms-list" style="border: 1px solid white; width: 100%">
+                <tr>
+                    <th>Room Name</th>
+                    <th>Admin Name</th>
+                    <th>Options</th>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div style="margin-left: 25%; background-color: black; color: white; width: 50%; padding: 10px;">
+            <h1>Create new Room</h1>
+            <form style="display: inline;">
+                <label for="room-name">Enter the room name:-</label>
+                <br>
+                <input type="text" id="room-name" name="room-name">
+                <br>
+                <button type="submit" id="submit">Submit</button>
+                <br>
+                <div id="error-room-name" style="display: none; background-color: red; color: white; border: 1px solid white; margin-top: 2px;">
+                    The room either exist or it contains spaces and the name isn't in the range of 5 and 25 characters.
+                </div>
+            </form>
+
+        </div>
+        <script type="text/javascript" src="/js/getProfileImage.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+    </body>
+</html>

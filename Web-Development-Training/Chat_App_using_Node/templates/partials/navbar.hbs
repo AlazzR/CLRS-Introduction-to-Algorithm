@@ -1,0 +1,55 @@
+<style>
+    .nav-links{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        padding: 5px;
+        border: 1px solid white;
+    }
+    .nav-links:hover{
+        background-color:aqua;
+        color: black;
+
+    }
+    .nav-links:link{
+        text-decoration: none;
+    }
+    .nav-button{
+        display: inline;
+        margin-top: -2px;
+        font-size: 20px;
+        height: 30px;
+        width: 100px;
+        background-color: black;
+        color: white;
+    }
+    .nav-button:hover{
+        background-color: aqua;
+        color: black;
+    }
+    .options{
+        display: inline;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        background-color: black;
+        color: white;
+    }
+    .options:hover{
+        background-color: aqua;
+        color: black;
+    }
+</style>
+<script type="text/javascript" src="/js/navbar.js"></script>
+<nav style="background-color: black; color: white; border: 1px solid white; display: grid; grid-template-columns: 50% 40% 10%; height: 40px; ">
+
+    <div style="padding-top: 10px;"><a id="home" class="nav-links" href="#">Home</a></div>
+    <div style="padding-top: 10px;"><img style="margin-top:-5px;border-radius: 50%;height: 30px;width: 30px;" id="profileImage" alt="Profile Image"></img> <big>{{username}}</big></div>
+    <div style="padding-top: 10px;">
+        <button class="nav-button">Profile</button>
+        <div id="options" style="display: none; position: sticky; grid-template-columns: 50% 50%">
+            <button id="upload-image" class="options">Upload new Image</a>
+            <button id="logout" class="options">Logout</a>
+        </div>
+    </div>
+</nav>
