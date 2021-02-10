@@ -1,17 +1,12 @@
-# Bookstore review using Django 
+# Chat App using Node and Express server
 
-This project will fetch books details from google ApI based on user searches and will allow the user to rate the book, and this book will be stored in the postgres database. Also, this book will be referenced to the user who has visited it. 
+This project utilized node as the server in the backend side, and used Express.js as the framework for controlling the end points, and used Socket.io to enable chatting between different users.
 
-## Run the following commands in the command line interface
+## Run the following commands in the command line interface:
 
+### npm run start
 
-### pip install -r requirements.txt
-### python manage.py makemigrations
-### python manage.py migrate
-### python manage.py runserver
+## After running the above commands, go to your favorite browser and search for http://127.0.0.1:3000/
 
 
-## After running the above commands, go to your favorite browser and search for http://127.0.0.1:8000/
-
-
-### Watch this project in action by pressing the following link [.../watch?v=cVFDM-ffVHU&feature=youtu.be](https://www.youtube.com/watch?v=cVFDM-ffVHU&feature=youtu.be), the link will take you to watch the unlisted video in my channel.
+### Watch this project in action by pressing the following link [.../watch?v=gic7x7EKwn8&feature=youtu.be](https://www.youtube.com/watch?v=gic7x7EKwn8&feature=youtu.be), the link will take you to watch the unlisted video in my channel.
