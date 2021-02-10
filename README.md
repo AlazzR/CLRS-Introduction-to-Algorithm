@@ -42,6 +42,11 @@ The third project---and final project---will be dealing with problem solving in 
        * Used Django for the backend and user authentication
        * Used Javascript ES6, Handlebars and axios
        * Used google book API
+   * **Chat App using Node and Express**
+       * Used Node and Express for the backend, and JWT for user authentication.
+       * Used Javascript ES6, Handlebars and axios
+       * Used Sequelize as my ORM to my postgres database
+       * Used Socket.io to enable the chatting mechanism between users
        
 ## Algorithm Training
 
