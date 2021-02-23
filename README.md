@@ -62,6 +62,9 @@ The third project---and final project---will be dealing with problem solving in 
        * Reverse Number
        * Merge Two Sorted Lists
        * Remove Element
+       * Array Matching
+       * String Period
+       * Invert a Binary Search Tree
 
    * **Problems with Difficulty rating of Medium**
        * Add Two numbers
